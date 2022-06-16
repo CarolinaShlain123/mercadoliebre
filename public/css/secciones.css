@@ -1,0 +1,116 @@
+section{
+    width: 90%;
+    margin-left:auto;
+    margin-right:auto;
+}
+article{
+   margin: 10px;
+    background-color: white;
+    display: block;
+    padding: 10px;
+    transition: all;
+    transition-duration: 0.2s;
+}
+article:hover{
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+main p{
+    font-size: 24px;
+}
+
+.detalleArticulo {
+    display: block;
+    border-top:1px solid #ebebeb;
+    padding: 15px;
+    background-color: white;
+
+}
+.camion{
+   color: #39b54a;
+   display: block;
+   font-size: 16px;
+   padding: 5px;
+   width: 30px;
+   height: 30px;
+   border: 1px solid #39b54a;
+   background-color: #FFF;
+   border-radius: 50%;
+   position: relative;
+   right: -70%;
+   top: -28px;
+  transition: all;
+  transition-duration: 1s;
+  }
+  .camion:hover{
+    transform: rotate(-90deg);
+  }
+.precio{
+    font-size: 18px;
+    width: 30%;
+    
+}
+.precioydescuentos{
+    display: flex;
+    flex-direction: row;
+}
+.descuentos{
+  font-size: 16px;
+  color: #39b54a;
+  width: 70%;
+ 
+}
+.descripcion{
+    font-size: 16px;
+    color:white;
+    transition-property: color;
+     transition-duration: 0.3s ;
+}
+.descripcion:hover{
+  color: black;
+}
+
+@media /*mobile*/(min-width:361px){
+  .descripcion{
+      display: none;
+  }
+  article{
+   width: 100%;
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+
+  }
+}
+@media /*tablet*/(min-width:769px) { 
+    .descripcion{
+        display:flex;
+    }
+    
+     article{
+         width: 40%;
+         
+     }
+     section{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+  
+}
+@media /*desktop*/(min-width:1080px) {
+    .descripcion{
+        display: flex;
+    }
+    
+     article{
+        width: 25%;
+          
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    
+      }
+}

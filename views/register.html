@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+ 
+        <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width">
+        
+         <title>Register</title>
+        
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+         <link rel="stylesheet" href="/css/style.css">
+         <link rel="stylesheet" href="/css/header.css">
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+         <link rel="stylesheet" href="/css/register.css">
+        </head>
+<body>
+    <header>
+        <div class="LogoYbusqueda">
+          <figure>
+          <img src="/images/logo-mercado-liebre.svg" alt="Logo Mercado libre">
+        </figure>
+         <form action="/" method="get" class="busqueda">
+          <fieldset>
+            <input type="text" placeholder="Buscar productos, marcas" name="search" id="SearchField">
+            <button><i class="fa-solid fa-search"></i></button>
+          </fieldset>
+         </form>
+        <p i class="fa-solid fa-hand-holding-dollar"></i>  Compra en cuotas y sin tarjeta de credito</p>
+        </div>  
+        <div class="siteYnavbar"> 
+            <nav class="site">
+             
+                       <a href="">Ofertas </a> 
+                       <a href="">Tiendas oficiales </a>
+                       <a href="">Vender </a>
+                       <a href="">Ayuda </a>
+                    </nav>
+                
+                   <nav class="navbar">
+                   
+                    <a href="/register">Crea tu cuenta </a> <i class="fa-solid fa-address-card"></i>
+                    <a href="/login">Ingresa </a><i class="fa-solid fa-arrow-right-to-bracket"></i>
+                    <a href="">Mis compras </a><i class="fa-solid fa-basket-shopping"></i>
+                  
+                </nav>
+              </div>
+            <center><nav class="burgerMenu">
+               <i class="fas fa-bars"></i>
+                </nav></center>
+        </header>
+
+
+        <form action="/" method="get"> 
+    <p>
+    <label for="Nombre"></label>
+    <input type="text" name="Nombre" placeholder="Nombre y Apellido" required>
+    <span class="feedback"></span>
+</p>
+<p>
+    <label for="usuario"></label>
+    <input type="text" name="usuario" placeholder="Nombre de usuario" required>
+    <span class="feedback"></span>
+</p>
+<p>
+    <label for="email"></label>
+    <input type="e-mail" name="email" placeholder="email" required>
+    <span class="feedback"></span>
+</p>
+<p>
+    <label for="nacimiento">Fecha de nacimiento</label>
+    <input type="date" name="nacimiento" required>
+    <span class="feedback"></span>
+</p>
+<p>
+    <label for="domicilio"></label>
+    <input type="text" name="domicilio" placeholder="domicilio" required>
+    <span class="feedback"></span>
+</p>
+<p>
+    <label for="Perfil"> Perfil del usuario</label>
+    <input type="radio" name="perfil" required value="Comprador">Comprador
+    <input type="radio" name="perfil" required value="Vendedor">Vendedor
+</p>
+<p>
+    <label for="intereses">Intereses</label>
+    <input type="checkbox" name="intereses" value="Electro">Electro 
+    <input type="checkbox" name="intereses"value="Moda">Moda
+    <input type="checkbox" name="intereses" value="Hogar">Hogar
+    <input type="checkbox" name="intereses" value="Jugueteria">Jugueteria
+    <input type="checkbox" name="intereses" value="Vida sana">Vida sana
+</p>
+<p>
+    <label for="imagen">Foto de perfil <i class="fa-solid fa-image"></i></label>
+    <input type="file" name="imagen" accept=".jpg">
+</p>
+<p>
+    <label for="contraseña">Contraseña</label>
+    <input type="password" name="contraseña" required>
+    <span class="feedback"></span>
+</p>
+<p>
+    <label for="confirmar">Confirmar contraseña</label>
+    <input type="password" name="confirmar" required>
+    <span class="feedback"></span>
+</p>
+<p>
+    <button type="submit" value="registration">Enviar</button>
+</p>
+<p>
+    <button type="recet">Borrar</button>
+</p>
+</form>
+</body>
+</html>
+
+
+
+    

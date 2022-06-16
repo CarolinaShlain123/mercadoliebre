@@ -1,0 +1,26 @@
+footer h3{
+    margin-bottom: 10px;
+    font-size: medium;
+  }
+  footer p{
+    font-size:15px;
+  }
+  
+  .icono{
+      color: #1259c3;
+      font-size: 2em;
+      transition-property: color;
+      transition-duration: 00.5ms;
+  }
+ .icono:hover{
+    color:#03264C ;
+ }
+ 
+  @media (min-width:1080px) {
+     .footer{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+     }
+  }

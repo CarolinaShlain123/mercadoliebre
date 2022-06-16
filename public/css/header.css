@@ -1,0 +1,97 @@
+header{
+    background-color: #EAC926;
+    
+}
+header figure{
+    width: 50%;
+}
+header form{
+    width: 50%;
+}
+header p{
+    font-size: 10px;
+}
+form fieldset{
+    margin: 10px;
+    border: none;
+}
+form button{
+    background-color: white;
+    flex-basis: 3rem;
+
+}
+.navbar{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    
+}
+.site{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+}
+.siteYnavbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.burgerMenu{
+    background-color: #1259c3;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    color: white;
+    border-radius: 6px 6px 4px;
+ }
+
+@media (min-width:361px) {
+    .burgerMenu{
+        display: flex;
+    }
+    .site{
+       display: none;
+   }
+   .navbar{
+       display: none;
+   }
+   .LogoYbusqueda{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+}
+@media (min-width:769px) { 
+    .burgerMenu{
+        display: none;
+    }
+    .site{
+        display: flex;
+    }
+    .navbar{
+        display: flex;
+    }
+    .LogoYbusqueda{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+@media (min-width:1080px) {
+    .burgerMenu{
+        display: none;
+    }
+    .site{
+        display: flex;
+    }
+    .navbar{
+        display: flex;
+    }
+    .logo_busqueda{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+       }
+}

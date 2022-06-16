@@ -1,0 +1,27 @@
+form body{
+    background-color:#ebebeb ;
+    font-family: 'Roboto', sans-serif; 
+    font-family: 12px;
+}
+
+form {
+	width:100%;
+	background-color:#ccc;
+}
+
+
+form input{
+	width:200px 200px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:20px;
+	display:inline-block;
+}
+.busqueda{
+    background-color: #EAC926;
+   
+}
+
+
