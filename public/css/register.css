@@ -19,6 +19,16 @@ form input{
 	margin:20px;
 	display:inline-block;
 }
+form button{
+    background-color: white;
+    color: black;
+    transition-property: background-color , color;
+    transition-duration: 0.5ms;
+}
+form button:hover{
+    background-color:#0022AA ;
+    color: white;
+ }
 .busqueda{
     background-color: #EAC926;
    

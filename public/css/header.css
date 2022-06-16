@@ -7,6 +7,8 @@ header figure{
 }
 header form{
     width: 50%;
+	margin:20px;
+	
 }
 header p{
     font-size: 10px;
@@ -20,21 +22,30 @@ form button{
     flex-basis: 3rem;
 
 }
-.navbar{
+.compraEnCuotas{
     display: flex;
-    justify-content:flex-end;
     flex-direction: row;
-    
+    flex-wrap: nowrap;
+    font-size: large;
+}
+.navbar{
+    width: 30%;
+    display: flex;  
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-content: flex-end;
 }
 .site{
+    width: 30%;
     display: flex;
-    justify-content:flex-start;
-    flex-direction: row;
+     flex-direction: row;
+     justify-content: space-between; 
+     
 }
 .siteYnavbar{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .burgerMenu{
     background-color: #1259c3;
